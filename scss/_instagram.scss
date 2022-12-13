@@ -1,0 +1,27 @@
+//
+// instagram.scss
+//
+
+.instagram {
+    text-align: center;
+    overflow: hidden;
+    padding-left: 0;
+    li {
+        width: 16.66666666666667%;
+        display: inline;
+        float: left;
+        margin: 0;
+    }
+}
+
+.instagram-lable{
+   p{
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        right: 0px;
+        transform: translateY(-50%);
+        max-width: 200px;
+        margin: 0 auto;
+   }
+}

@@ -1,0 +1,132 @@
+
+//
+// blog.scss
+//
+
+
+
+
+// serch
+.search-form {
+    position: relative;
+    input {
+        padding: 12px 20px;
+        width: 100%;
+        top: 0px;
+        font-size: 15px;
+        color: $dark !important;
+        border: none;
+        outline: none !important;
+        padding-left: 45px;
+        border-radius: 3px;
+        border: 1px solid #dee2e6;
+        background-color: transparent;
+        
+    }
+    i {
+        position: absolute;
+        top: 8px;
+        left: 15px;
+    }
+}
+
+
+// social link
+
+.links-social {
+    a {
+        text-align: center;
+        border: 1px solid $dark;
+        color:$dark;
+        display: block;
+        width: 40px;
+        height: 40px;
+        line-height: 38px;
+        font-size: 16px;
+        transition: all 0.5s ease;
+        &:hover{
+        color: $white;
+        background:$dark;
+        }
+}
+}
+
+
+/******** tags ********/
+
+.tags {
+    a {
+        border: 1px solid #dee2e6;
+        padding: 0 10px;
+        margin: 0 5px 9px 0;
+        border-radius: 3px;
+        color:$dark;
+        display: inline-block;
+        line-height: 26px;
+        transition: all .5s ease;
+        &:hover {
+            color: $white !important;
+            background-color: $dark
+        }
+    }
+}
+
+// popular-post
+
+.popular-post{
+    img{
+        width: 80px;
+    }
+}
+
+
+
+// pagination
+
+.pagination > li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    border: 1px solid #dee2e6;
+    color: $muted;
+    display: block;
+    float: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 36px;
+    transition: all .5s ease;
+    background-color: $white;
+}
+
+.pagination > .active > a,
+.pagination > .active > span {
+    border: 1px solid $dark;
+    color: $white;
+    background-color: $dark;
+}
+
+.pagination > li > a:hover,
+.pagination > li > a:focus,
+.pagination > li > span:hover,
+.pagination > li > span:focus {
+    border: 1px solid $dark;
+    color: $white !important;
+    background-color: $dark;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    border: 1px solid $dark;
+    color: $white;
+    cursor: default;
+    z-index: 3;
+}

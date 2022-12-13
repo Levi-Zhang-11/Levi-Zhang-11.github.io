@@ -1,0 +1,17 @@
+
+//
+// footer.scss
+//
+
+  .footer-link {
+    a {
+        line-height: 40px;
+        transition: all 0.5s;
+        color: rgba(255, 255, 255, 0.5);
+        letter-spacing: 0.4px;
+        &:hover{
+            color: $white;
+        }
+      }
+  }
+  
